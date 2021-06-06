@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "authors": [
+    "Adilson Zacarias <adilsona.v.z.1234@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "bootstrap": "^5.0.1",
+    "mustache": "^4.2.0",
+    "requirejs": "^2.3.6"
+  }
+}
