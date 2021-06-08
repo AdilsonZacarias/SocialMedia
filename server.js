@@ -13,7 +13,7 @@ var express = require('express'),
   httpServer = require('http').createServer(app),
 
   //Utilizando a mesma porta do HTTP Server para o Socket.IO
-  io = socketio.listem (httpServer)
+  io = socketio.listem (httpServer); 
 ;
 
 //Diz ao Express que o diretório web contém conteúdos estáticos
